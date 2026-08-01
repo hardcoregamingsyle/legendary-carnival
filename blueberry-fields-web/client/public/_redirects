@@ -1,0 +1,3 @@
+# Cloudflare Pages SPA fallback: serve React routes from index.html without intercepting API functions.
+/api/*  /api/:splat  200
+/*      /index.html  200
